@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>CAT(喵～)</title>
+		<!--&lt;!&ndash; basic styles &ndash;&gt;-->
+		<link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+		<!--<link rel="stylesheet" href="../static/css/font-awesome.min.css" />-->
+
+		<!--&lt;!&ndash;[if IE 7]>-->
+		  <!--<link rel="stylesheet" href="../static/css/font-awesome-ie7.min.css" />-->
+		<!--<![endif]&ndash;&gt;-->
+
+		<!--&lt;!&ndash; page specific plugin styles &ndash;&gt;-->
+
+		<!--&lt;!&ndash; fonts &ndash;&gt;-->
+
+		<!--&lt;!&ndash; ace styles &ndash;&gt;-->
+
+		<!--<link rel="stylesheet" href="../static/css/ace.min.css" />-->
+		<!--<link rel="stylesheet" href="../static/css/ace-rtl.min.css" />-->
+		<!--<link rel="stylesheet" href="../static/css/ace-skins.min.css" />-->
+        <link rel="stylesheet" href="../static/css/index.css" />
+
+        <!--<link rel="stylesheet" href="../static/css/ui.jqgrid.css" />-->
+        <!--<link rel="stylesheet" href="../static/css/bootstrap-treeview.min.css" />-->
+
+		<!--<script src="../static/js/ace-extra.min.js"></script>-->
+
+
+	</head>
+
+	<body>
+        <div id="main-page">
+            {% for info in cat_version %}
+                <div class="panel {{info.class}}">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{info.title}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {% for i in info.versionInfo %}
+                            <p>{{i}}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+</body>
+</html>
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CAT(喵～)</title>
+<link href="../static/Wopop_files/style_log.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../static/Wopop_files/style.css">
+<link rel="stylesheet" type="text/css" href="../static/Wopop_files/userpanel.css">
+<link rel="stylesheet" type="text/css" href="../static/Wopop_files/jquery.ui.all.css">
+<script type="text/javascript" src="../static/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+        function keyLogin(){
+             if (event.keyCode==13)  //回车键的键值为13
+               document.getElementById("button").click(); //调用登录按钮的登录事件
+        }
+        function submitLogin(){
+            $("#usernameMsg").html("&nbsp;");
+            $("#passwdMsg").html("&nbsp;");
+            var username = $("#username").val();
+            var passwd = $("#passwd").val();
+            var errFlag = false
+            if (username==''){
+                $("#usernameMsg").html("用户名不能为空");
+                errFlag = true;
+            }
+            if (passwd == ''){
+                $("#passwdMsg").html("密码不能为空");
+                errFlag = true
+            }
+            if (errFlag){
+                return;
+            }else{
+                <!--$("#usernameMsg").hide();-->
+                <!--$("#passwdMsg").hide();-->
+                json_data = {"username":username,"passwd":passwd,"flag":"login"}
+                $.ajax({
+                    url:"/login/",
+                    type: 'post',
+                    dataType: 'json',
+                    data: json_data,
+                    success: function(e){
+                        if(e.code == 0){
+                            location.href ="/index/"
+                        }else{
+                            <!--$("#respMsg").show();-->
+                            $("#respMsg").html(e.msg)
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+
+</head>
+
+<body class="login" mycollectionplug="bind" onkeydown="keyLogin();">
+    <div class="login_logo"><img src="../static/images/logo1_meitu_1.png" alt=""/></div>
+    <div class="login_m">
+        <div class="login_boder">
+            <div class="login_padding" id="login_model">
+                <h2>USERNAME</h2>
+                <div>
+                    <font id="usernameMsg" color="red" style="float: left;display: block;">   &nbsp </font>
+                </div>
+                <label>
+                    <input type="text" id="username" class="txt_input txt_input2" placeholder="请输入花名">
+                </label>
+                <br/>
+                <h2>PASSWORD</h2>
+                <div>
+                    <font id="passwdMsg" color="red" style="float: left;display: block;">  &nbsp </font>
+                </div>
+                <label>
+                    <input type="password" name="textfield2" id="passwd" class="txt_input" placeholder="请输入密码">
+                </label>
+                <div>
+                    <font id="respMsg" color="red" style="float: left;display: block;">  &nbsp </font>
+                </div>
+
+                <p class="forgot"><a id="iforget" href="javascript:void(0);"></a></p>
+
+                <div class="rem_sub">
+                    <label>
+                        <input type="submit" class="sub_button" name="button" id="button" onclick="submitLogin()" value="SIGN-IN" style="opacity: 0.7;">
+                    </label>
+                </div>
+            </div>
+        </div><!--login_boder end-->
+    </div><!--login_m end-->
+    <br> <br>
+    <p align="center"> © 2015 Powered by 铜板街质量管理部</p>
+
+
+
+</body></html>

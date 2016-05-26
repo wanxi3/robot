@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>CAT(喵～)</title>
+		<!-- basic styles -->
+		<link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../static/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../static/css/ace.min.css" />
+		<link rel="stylesheet" href="../static/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="../static/css/ace-skins.min.css" />
+        <link rel="stylesheet" href="../static/css/index.css" />
+        <link rel="stylesheet" href="../static/css/ui.jqgrid.css" />
+        <link rel="stylesheet" href="../static/css/bootstrap-treeview.min.css" />
+
+		<script src="../static/js/ace-extra.min.js"></script>
+
+
+	</head>
+
+	<body>
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+        <!-- 右边树 -->
+        <div class="rightBar" style="float:right" >
+            <span class="menu-text"> Test Case </span>
+          <input type="text" placeholder="Search ..." class="auto_input_search" />
+          <div id="tree1" class="tree"></div>
+        </div>
+        <!-- 左边树 -->
+        <div class="sidebar" id="sidebar">
+					<script type="text/javascript">
+						try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+					</script>
+
+					<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+						<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+							<span class="btn btn-success"></span>
+
+							<span class="btn btn-info"></span>
+
+							<span class="btn btn-warning"></span>
+
+							<span class="btn btn-danger"></span>
+						</div>
+					</div><!-- #sidebar-shortcuts -->
+
+					<ul id="leftMenu" class="nav nav-list">
+						<li >
+							<a href="javascript:void(0)">
+								<span class="title"> 设备列表 </span>
+							</a>
+						</li>
+                        <input type="text" placeholder="Search ..." class="auto_input_search" />
+                        {% for envi,data in result.iteritems %}
+                                    {% ifequal envi "local" %}
+                                    <li>
+                                        <a class="dropdown-toggle" >
+                                        <b class="arrow icon-angle-down"></b>
+                                        <span class="menu-text">本地</span>
+                                        <ul class="submenu">
+                                        {% ifequal data.android.code 0 %}
+                                            {% for device in data.android.do_devices %}
+                                                <li host="{{data.host}}" data-host="{{data.host}}" id="{{device.udid}}">
+                                                    <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                        <i class="icon-double-angle-right"></i>
+                                                        <input class="runStatus" type="checkbox" checked="checked" disabled="disabled">
+                                                        <span class="run">{{device.name}}</span>
+                                                        <!--<input type="checkbox" class="isAble">-->
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                            {% for device in data.android.undo_devices %}
+                                                <li host="{{data.host}}" data-host="{{data.host}}" id="{{device.udid}}">
+                                                    <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                        <i class="icon-double-angle-right"></i>
+                                                        <input class="runStatus" type="checkbox">
+                                                        <span class="undo">{{device.name}}</span>
+                                                        <!--<input type="checkbox" class="isAble">-->
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                            {% for device in data.android.finish_devices %}
+                                                <li host="{{data.host}}" data-host="{{data.host}}" id="{{device.udid}}">
+                                                    <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                        <i class="icon-double-angle-right"></i>
+                                                        <input class="runStatus" type="checkbox">
+                                                        <span class="finish">{{device.name}}</span>
+                                                        <!--<input type="checkbox" class="isAble">-->
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                        {% else %}
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="icon-double-angle-right"></i>
+                                                    <span>{{data.android.msg}}</span>
+                                                </a>
+                                            </li>
+                                        {% endifequal %}
+                                        </ul>
+                                    {% endifequal %}
+                                    </a>
+                                </li>
+                                    {% ifequal envi "server" %}
+                                    <li>
+                                        <a class="dropdown-toggle" >
+                                        <b class="arrow icon-angle-down"></b>
+                                        <span class="menu-text">服务器</span>
+                                        <ul class="submenu">
+                                        {% ifequal data.android.code 0 %}
+                                            {% for device in data.android.do_devices %}
+                                                <li host="{{data.host}}" data-host="{{data.host}}" id="{{device.udid}}">
+                                                    <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                        <i class="icon-double-angle-right"></i>
+                                                        <input class="runStatus" type="checkbox" checked="checked" disabled="disabled">
+                                                        <span class="run">{{device.name}}</span>
+                                                        <!--<input type="checkbox" class="isAble">-->
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                            {% for device in data.android.undo_devices %}
+                                                <li host="{{data.host}}" data-host="{{data.host}}" id="{{device.udid}}">
+                                                    <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                        <i class="icon-double-angle-right"></i>
+                                                        <input class="runStatus" type="checkbox">
+                                                        <span class="undo">{{device.name}}</span>
+                                                        <!--<input type="checkbox" class="isAble">-->
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                            {% for device in data.android.finish_devices %}
+                                                <li host="{{data.host}}" data-host="{{data.host}}" id="{{device.udid}}">
+                                                    <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                        <i class="icon-double-angle-right"></i>
+                                                        <input class="runStatus" type="checkbox">
+                                                        <span class="finish">{{device.name}}</span>
+                                                        <!--<input type="checkbox" class="isAble">-->
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                        {% else %}
+                                            <li>
+                                                <a href="javascript:void(0)">
+                                                    <i class="icon-double-angle-right"></i>
+                                                    <span>{{data.android.msg}}</span>
+                                                </a>
+                                            </li>
+                                        {% endifequal %}
+                                        </ul>
+                                    {% endifequal %}        
+                                    </a>
+                                </li>
+                                    {% ifequal envi 'online' %}
+                                        {% for host,device_data in data.iteritems %}
+                                            <li>
+                                                <a class="dropdown-toggle" >
+                                                        {{device_data.hostname}}
+                                                    <b class="arrow icon-angle-down"></b>
+                                                </a>
+                                                <ul class="submenu">
+                                                {% ifequal device_data.android.code 0 %}
+                                                    {% for device in device_data.android.do_devices %}
+                                                        <li data-host="{{device_data.host}}" id="{{device.udid}}">
+                                                            <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                                <i class="icon-double-angle-right"></i>
+                                                                <input class="runStatus" type="checkbox" checked="checked" disabled="disabled">
+                                                                <span class="run">{{device.name}}</span>
+                                                            </a>
+                                                        </li>
+                                                    {% endfor %}
+                                                    {% for device in device_data.android.undo_devices %}
+                                                        <li data-host="{{device_data.host}}" id="{{device.udid}}">
+                                                            <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                                <i class="icon-double-angle-right"></i>
+                                                                <input class="runStatus" type="checkbox">
+                                                                <span class="undo">{{device.name}}</span>
+                                                            </a>
+                                                        </li>
+                                                    {% endfor %}
+                                                    {% for device in device_data.android.finish_devices %}
+                                                        <li data-host="{{device_data.host}}" id="{{device.udid}}">
+                                                            <a href="javascript:void(0)" onclick="fetchLogAll(this)" node-name="{{device.name}}" node-udid={{device.udid}}>
+                                                                <i class="icon-double-angle-right"></i>
+                                                                <input class="runStatus" type="checkbox">
+                                                                <span class="finish">{{device.name}}</span>
+                                                            </a>
+                                                        </li>
+                                                    {% endfor %}
+                                                {% else %}
+                                                    <li>
+                                                        <a href="javascript:void(0)">
+                                                            <i class="icon-double-angle-right"></i>
+                                                            <span>{{device_data.android.msg}}</span>
+                                                        </a>
+                                                    </li>
+                                                {% endifequal %}
+                                                </ul>
+                                            </li>
+                                            {% endfor %}
+                                        {% endifequal %}
+                        {% endfor %}
+
+					</ul><!-- /.nav-list -->
+
+					<div class="sidebar-collapse" id="sidebar-collapse">
+						<i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+					</div>
+
+					<script type="text/javascript">
+						try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+					</script>
+				</div>
+        <!-- 中间部分 -->
+        <div class="main-content" style="margin-right:190px">
+            <div class="page-content">
+                <div class="auto_page_header">
+                  <button class="auto_btn_has_border auto_btn_green">
+                    <i id='home' class="icon-home">&nbsp;主页</i>
+                  </button>
+                  <!--<button class="auto_btn">-->
+                    <!--<i class="icon-save">&nbsp;保存</i>-->
+                  <!--</button>-->
+                  <!--<button class="auto_btn">-->
+                    <!--<i class="icon-trash">&nbsp;删除</i>-->
+                  <!--</button>-->
+                  <!--<button class="auto_btn">-->
+                    <!--<i class="icon-refresh">&nbsp;刷新</i>-->
+                  <!--</button>-->
+                  <button id="runCase" class="auto_btn_has_border auto_btn_green">
+                    <i class="icon-play-circle">&nbsp;运行</i>
+                  </button>
+                  <!--<button id="setStatus" class="auto_btn_has_border auto_btn_green">-->
+                    <!--<i class="icon-play-circle">&nbsp;设置</i>-->
+                  <!--</button>-->
+                  <!--<button class="auto_btn_has_border auto_btn_red">-->
+                    <!--<i class="icon-stop">&nbsp;停止</i>-->
+                  <!--</button>-->
+                  <!--<button id="log" class="auto_btn_has_border auto_btn_green">-->
+                    <!--<i class="icon-envelope">&nbsp;日志</i>-->
+                  <!--</button>-->
+                </div>
+            <div class="col-sm-12">
+              <div class="tabbable" id="auto_tab">
+                <ul class="nav nav-tabs padding-12 tab-color-blue background-blue">
+                  <li class="active" id="autoTadNav-0">
+                    <a data-toggle="tab" tabid="0" href="#autoTab-0">说明</a>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="autoTab-0" class="tab-pane active">
+                      <blockquote>
+                          <p>Android 自动化测试说明</p>
+                          <footer><cite title="Source Title">目前只支持在本地通过USB连接上手机测试</cite></footer>
+                          <p></p>
+                          <ul>
+                              <li><p style="font-size: 13px">从svn地址下载相关文件：<u>svn://192.168.1.108/test/automation/project/cat/remote_app_test/CATRemote.dmg</u></p></li>
+                              <li><p style="font-size: 13px">或者<a href="http://cat.tongbanjie.com/static/dmg/CATRemote.dmg">点我下载</a>></p></li>
+                               <li><p style="font-size: 13px">点击安装软件，安装完成后。点击状态栏图标，点击Trun CATRemote on 看到状态转换为on即开启</p></li>
+                          </ul>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+    <script type="text/html" id="case">
+      <form class="form-horizontal" id="sample-form">
+        <div class="form-group">
+          <label for="inputWarning" class="col-xs-12 col-sm-2 control-label no-padding-right">文档说明：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" name="case_doc" value="case_doc_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputError" class="col-xs-12 col-sm-2 control-label no-padding-right">SetUp：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" name="case_setup" value="case_setup_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputSuccess" class="col-xs-12 col-sm-2 control-label no-padding-right">Teardown：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" name="case_teardown" value="case_teardown_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputInfo" class="col-xs-12 col-sm-2 control-label no-padding-right">超时时间：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" name="case_timeout" value="case_timeout_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputError2" class="col-xs-12 col-sm-2 control-label no-padding-right">标签：</label>
+          <div class="col-xs-12 col-sm-9">
+            <div class="tags">
+              <button class="btn btn-sm btn-success">新增</button>
+              <span class="tag">PI<button type="button" class="close">×</button></span>
+              <span class="tag">LOGIN<button type="button" class="close">×</button></span>
+            </div>
+          </div>
+        </div>
+      </form>
+      <table id="gridId"></table>
+    </script>
+
+    <script type="text/html" id="suite">
+      <form class="form-horizontal" id="sample-form">
+        <div class="form-group">
+          <label for="inputWarning" class="col-xs-12 col-sm-2 control-label no-padding-right">文档说明：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="doc_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputWarning" class="col-xs-12 col-sm-2 control-label no-padding-right">Suite Setup：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="suite_setup_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputWarning" class="col-xs-12 col-sm-2 control-label no-padding-right">Suite Teardown：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="suite_teardown_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputWarning" class="col-xs-12 col-sm-2 control-label no-padding-right">Test Setup：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="test_setup_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputError" class="col-xs-12 col-sm-2 control-label no-padding-right">Test Teardown：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="test_teardown_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputSuccess" class="col-xs-12 col-sm-2 control-label no-padding-right">Test Timeout：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="test_timeout_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+       </form>
+      <table id="gridId"></table>
+    </script>
+
+    <script type="text/html" id="resource">
+     <form class="form-horizontal" id="sample-form">
+         <div class="form-group">
+             <label for="inputSuccess" class="col-xs-12 col-sm-2 control-label no-padding-right">
+                 Documentation：
+             </label>
+             <div class="col-xs-12 col-sm-9">
+                 <span class="block input-icon input-icon-right">
+                     <input type="text" disabled="disabled" value="doc_value" class="width-90" />
+                     <span class="auto_edit">编辑</span>
+                 </span>
+             </div>
+         </div>
+     </form>
+     <table id="gridId"></table>
+     <table id="variableTable"></table>
+    </script>
+
+    <script type="text/html" id="keyword">
+      <form class="form-horizontal" id="sample-form">
+        <div class="form-group">
+          <label for="inputWarning" class="col-xs-12 col-sm-2 control-label no-padding-right">Documentation：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="keyword_doc_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputError" class="col-xs-12 col-sm-2 control-label no-padding-right">Arguments：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="keyword_arguments_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputSuccess" class="col-xs-12 col-sm-2 control-label no-padding-right">Teardown：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="keyword_teardown_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputInfo" class="col-xs-12 col-sm-2 control-label no-padding-right">Timeout：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="keyword_timeout_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+        </div>
+       <div class="form-group">
+          <label for="inputInfo" class="col-xs-12 col-sm-2 control-label no-padding-right">Return Value：</label>
+          <div class="col-xs-12 col-sm-9">
+            <span class="block input-icon input-icon-right">
+              <input type="text" disabled="disabled" value="keyword_return_value" class="width-90" />
+              <span class="auto_edit">编辑</span>
+            </span>
+          </div>
+       </div>
+      </form>
+      <table id="gridId"></table>
+    </script>
+
+    <script src="../static/js/jquery-2.0.3.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.slimscroll.min.js"></script>
+    <script src="../static/js/bootstrap-treeview.min.js"></script>
+
+    <!-- ace scripts -->
+    <script src="../static/js/jqGrid/jquery.jqGrid.min.js"></script>
+    <script src="../static/js/jqGrid/i18n/grid.locale-en.js"></script>
+
+    <script src="../static/js/fuelux/fuelux.tree.min.js"></script>
+    <!--<script src="/../static/js/ace.min.js"></script>-->
+
+    <script src="../static/js/app.js"></script>
+		<!-- inline scripts related to this page -->
+    <script>
+
+    </script>
+</body>
+</html>
+

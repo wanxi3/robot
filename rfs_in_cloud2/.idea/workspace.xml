@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6019a6f7-ac1b-4968-9563-3fb661b216b5" name="Default" comment="" />
+    <ignored path="rfs_in_cloud2 4.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/rfs_in_cloud24$manage.coverage" NAME="manage Coverage Results" MODIFIED="1450257122032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rfs_in_cloud2 4$manage.coverage" NAME="manage Coverage Results" MODIFIED="1450251502351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="rfs_in_cloud2 4" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/templates/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="58" selection-start="3261" selection-end="3266" vertical-scroll-proportion="-7.5" vertical-offset="975" max-vertical-offset="5850">
+              <folding>
+                <marker date="1450264219000" expanded="true" signature="9238:11609" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="9271:9695" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="9422:9680" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="9483:9663" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="9728:10155" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="9878:10140" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="9939:10123" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="10188:10626" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="10343:10611" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="10404:10594" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="10659:11088" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="10807:11073" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="10868:11056" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11121:11595" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11269:11580" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11300:11563" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11753:14467" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11786:12189" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11937:12174" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="11998:12157" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="12222:12640" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="12380:12625" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="12441:12608" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="12673:13097" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="12834:13082" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="12895:13065" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="13130:13546" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="13287:13531" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="13348:13514" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="13579:13999" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="13737:13984" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="13798:13967" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14032:14452" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14191:14437" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14252:14420" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14613:15138" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14647:15125" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14745:14799" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14845:15109" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="14911:15089" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="15323:17594" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="15356:15776" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="15516:15761" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="15577:15744" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="15809:16229" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="15963:16214" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16024:16197" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16262:16682" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16417:16667" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16478:16650" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16715:17130" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16866:17115" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="16927:17098" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="17162:17580" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="17318:17566" placeholder="..." />
+                <marker date="1450264219000" expanded="true" signature="17379:17549" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="295" column="9" selection-start="8925" selection-end="8925" vertical-scroll-proportion="0.21027479" vertical-offset="4249" max-vertical-offset="6330">
+              <folding>
+                <marker date="1450323451000" expanded="true" signature="1727:1739" placeholder="..." />
+                <marker date="1450323451000" expanded="false" signature="1727:1797" placeholder="..." />
+                <marker date="1450323451000" expanded="false" signature="1845:1860" placeholder="..." />
+                <marker date="1450323451000" expanded="false" signature="8380:8395" placeholder="..." />
+                <marker date="1450323451000" expanded="true" signature="10212:10227" placeholder="..." />
+                <marker date="1450323451000" expanded="true" signature="12497:12512" placeholder="..." />
+                <marker date="1450323451000" expanded="true" signature="13221:13236" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource_data.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/resource_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="55" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suite_data.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/suite_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="384" column="55" selection-start="14126" selection-end="14126" vertical-scroll-proportion="0.0" vertical-offset="5303" max-vertical-offset="6540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="59" selection-start="628" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ace.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/ace.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="233" column="167" selection-start="8877" selection-end="8877" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="7380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_app_case.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/run_app_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="203" column="30" selection-start="7272" selection-end="7272" vertical-scroll-proportion="0.0" vertical-offset="2852" max-vertical-offset="3480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_phone_data.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/app_phone_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="29" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="2310">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseHandle.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rfs_web/BaseHandle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="33" selection-start="3449" selection-end="3454" vertical-scroll-proportion="0.0" vertical-offset="1502" max-vertical-offset="2025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rfs_web/app_phone_data.py" />
+        <option value="$PROJECT_DIR$/rfs_web/templates/app.html" />
+        <option value="$PROJECT_DIR$/rfs_web/resource_data.py" />
+        <option value="$PROJECT_DIR$/rfs_web/suite_data.py" />
+        <option value="$PROJECT_DIR$/rfs_web/BaseHandle.py" />
+        <option value="$PROJECT_DIR$/rfs_web/run_app_case.py" />
+        <option value="$PROJECT_DIR$/static/js/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1023" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rfs_in_cloud24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rfs_in_cloud24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rfs_in_cloud24" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings>
+        <option name="myUseModuleSdk" value="true" />
+      </PyConsoleSettings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8001" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rfs_in_cloud2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6019a6f7-ac1b-4968-9563-3fb661b216b5" name="Default" comment="" />
+      <created>1450236454983</created>
+      <updated>1450236454983</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15422277" sideWeight="0.56035435" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43964562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15422277" sideWeight="0.66998893" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21705426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rfs_web/templates/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="68" selection-start="3388" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="5850">
+          <folding>
+            <marker date="1450264219000" expanded="true" signature="9238:11609" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9271:9695" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9422:9680" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9483:9663" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9728:10155" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9878:10140" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9939:10123" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10188:10626" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10343:10611" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10404:10594" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10659:11088" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10807:11073" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10868:11056" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11121:11595" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11269:11580" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11300:11563" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11753:14467" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11786:12189" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11937:12174" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11998:12157" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12222:12640" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12380:12625" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12441:12608" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12673:13097" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12834:13082" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12895:13065" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13130:13546" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13287:13531" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13348:13514" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13579:13999" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13737:13984" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13798:13967" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14032:14452" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14191:14437" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14252:14420" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14613:15138" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14647:15125" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14745:14799" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14845:15109" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14911:15089" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15323:17594" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15356:15776" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15516:15761" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15577:15744" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15809:16229" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15963:16214" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16024:16197" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16262:16682" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16417:16667" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16478:16650" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16715:17130" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16866:17115" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16927:17098" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="17162:17580" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="17318:17566" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="17379:17549" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="16" selection-start="5878" selection-end="5878" vertical-scroll-proportion="0.0" vertical-offset="1830" max-vertical-offset="5850">
+          <folding>
+            <marker date="1450323451000" expanded="true" signature="1727:1739" placeholder="..." />
+            <marker date="1450323451000" expanded="false" signature="1727:1797" placeholder="..." />
+            <marker date="1450323451000" expanded="false" signature="1845:1860" placeholder="..." />
+            <marker date="1450323451000" expanded="false" signature="8380:8395" placeholder="..." />
+            <marker date="1450323451000" expanded="true" signature="10212:10227" placeholder="..." />
+            <marker date="1450323451000" expanded="true" signature="12497:12512" placeholder="..." />
+            <marker date="1450323451000" expanded="true" signature="13221:13236" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ace.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="167" selection-start="8877" selection-end="8877" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="7380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/run_app_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="0" selection-start="7825" selection-end="7825" vertical-scroll-proportion="0.0" vertical-offset="3225" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/app_phone_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="0" selection-start="3487" selection-end="3487" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="2310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/BaseHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="19" selection-start="3603" selection-end="3603" vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ace.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="167" selection-start="8877" selection-end="8877" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="7380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="59" selection-start="628" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/resource_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="55" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/suite_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="384" column="55" selection-start="14126" selection-end="14126" vertical-scroll-proportion="0.0" vertical-offset="5303" max-vertical-offset="6540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/templates/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="58" selection-start="3261" selection-end="3266" vertical-scroll-proportion="-7.5" vertical-offset="975" max-vertical-offset="5850">
+          <folding>
+            <marker date="1450264219000" expanded="true" signature="9238:11609" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9271:9695" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9422:9680" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9483:9663" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9728:10155" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9878:10140" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="9939:10123" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10188:10626" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10343:10611" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10404:10594" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10659:11088" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10807:11073" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="10868:11056" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11121:11595" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11269:11580" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11300:11563" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11753:14467" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11786:12189" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11937:12174" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="11998:12157" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12222:12640" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12380:12625" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12441:12608" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12673:13097" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12834:13082" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="12895:13065" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13130:13546" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13287:13531" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13348:13514" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13579:13999" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13737:13984" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="13798:13967" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14032:14452" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14191:14437" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14252:14420" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14613:15138" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14647:15125" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14745:14799" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14845:15109" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="14911:15089" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15323:17594" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15356:15776" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15516:15761" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15577:15744" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15809:16229" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="15963:16214" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16024:16197" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16262:16682" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16417:16667" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16478:16650" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16715:17130" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16866:17115" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="16927:17098" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="17162:17580" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="17318:17566" placeholder="..." />
+            <marker date="1450264219000" expanded="true" signature="17379:17549" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/app_phone_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="29" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="2310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/BaseHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="33" selection-start="3449" selection-end="3454" vertical-scroll-proportion="0.0" vertical-offset="1502" max-vertical-offset="2025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rfs_web/run_app_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="30" selection-start="7272" selection-end="7272" vertical-scroll-proportion="0.0" vertical-offset="2852" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="9" selection-start="8925" selection-end="8925" vertical-scroll-proportion="0.21027479" vertical-offset="4249" max-vertical-offset="6330">
+          <folding>
+            <marker date="1450323451000" expanded="true" signature="1727:1739" placeholder="..." />
+            <marker date="1450323451000" expanded="false" signature="1727:1797" placeholder="..." />
+            <marker date="1450323451000" expanded="false" signature="1845:1860" placeholder="..." />
+            <marker date="1450323451000" expanded="false" signature="8380:8395" placeholder="..." />
+            <marker date="1450323451000" expanded="true" signature="10212:10227" placeholder="..." />
+            <marker date="1450323451000" expanded="true" signature="12497:12512" placeholder="..." />
+            <marker date="1450323451000" expanded="true" signature="13221:13236" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html style="height:100%;" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>CAT(喵～)</title>
+		<!-- basic styles -->
+		<link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../static/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../static/css/ace.min.css" />
+        <link rel="stylesheet" href="../static/css/index.css" />
+        <!--<style>-->
+            <!--body{background:url(../static/images/back.jpg) no-repeat center top;}-->
+        <!--</style>-->
+	</head>
+
+	<body style="height:100%;background:url(../static/images/back.jpg) no-repeat center top;">
+		<div class="navbar navbar-inverse" id="navbar">
+			<div class="navbar-container" id="navbar-container">
+                <div class="navbar-header pull-left">
+                    <img class="logo" src="../static/images/logo.jpeg">
+					<a href="/index/" class="navbar-brand">
+						<small>
+							CAT后台管理系统
+						</small>
+					</a><!-- /.brand -->
+				</div><!-- /.navbar-header -->
+				<div class="navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+                        <li>
+                            <a data-toggle="dropdown" src="/pc/" href="javascript:void(0);" class="dropdown-toggle" onClick="addinsidePage(this)">
+                                <span><small>PC</small></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                <span><small>APP</small></span>
+                                <i class="icon-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0);" src="/app_phone_data/?type=android" onClick="addinsidePage(this)">Andorid</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a src="/app_phone_data/?type=ios" href="javascript:void(0);" onClick="addinsidePage(this)">IOS</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a src="#" href="javascript:void(0);" onClick="later()">LikeMonkey</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" src="/edition_change/" href="#" class="dropdown-toggle" onClick="later()">
+                                <span><small>h5</small></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" src="/edition_change/" href="#" class="dropdown-toggle" onClick="addinsidePage(this)">
+                                <span><small>版本变迁</small></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" src="/cathelp/" href="#" class="dropdown-toggle" onClick="addinsidePage(this)">
+                                <span><small>帮助</small></span>
+                            </a>
+                        </li>
+						    <li>
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="../static/avatars/cat2.jpeg"/>
+								<span class="user-info">
+									<small>欢迎光临,</small>
+									{{user.last_name}}
+								</span>
+								<i class="icon-caret-down"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-left">
+								<li>
+									<a href="/logout/">
+										<i class="icon-off"></i>
+										退出
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul><!-- /.ace-nav -->
+				</div><!-- /.navbar-header -->
+			</div><!-- /.container -->
+
+		</div>
+        <div id="main-page">
+            <h1 class="res-h1">Cloud Automation Test</h1>
+            <div class="res-div">1、本系统为web端，移动端自动化测试平台</div>
+            <div class="res-div">2、本版本支持web用例选择执行，移动端用例选择执行以及查看结果</div>
+            <div class="res-div">3、移动端的ios以及h5还在研发中</div>
+            <div class="res-div">4、web端暂不支持用例在线修改</div>
+            <div class="res-div">5、在使用过程中有什么疑问，可以参考下面一条</div>
+            <div class="res-div">6、有什么意见或者建议，欢迎随时联系质管部宫城或丁典</div>
+        </div>
+        <div id="insideP" style="display: none;height:100%;">
+            <iframe id="insidePage" name="insidePage" scrolling="auto" frameborder="0"  src="" style="width:100%;height:100%;"></iframe>
+        </div>
+
+    <script src="../static/js/jquery-2.0.3.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+
+    <!-- ace scripts -->
+
+    <!--<script src="/../static/js/ace.min.js"></script>-->
+
+		<!-- inline scripts related to this page -->
+    <script type="text/javascript">
+
+        function addinsidePage(t){
+        $("#main-page").css("display","none");
+            json_data = {"flag":"check_login"}
+            $.ajax({
+                url:"/login/",
+                type: 'post',
+                dataType: 'json',
+                data: json_data,
+                success: function(e){
+                    if(e.code == 0){
+                        var $this = $(t);
+                        var href = $this.attr('src');
+                        $("#insidePage").attr('src',href);
+                        $("#insideP").show();
+                    }else{
+                        location.href ="/login/"
+                    }
+                }
+            });
+        }
+        function later(){
+            alert("正在开发中....");
+        }
+    </script>
+</body>
+</html>
+
